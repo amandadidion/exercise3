@@ -1,0 +1,43 @@
+*{
+    border: 2px solid cornflowerblue; 
+    margin: 5px;
+    padding: 3px;
+    }
+    
+    html, body {
+    margin: 0;
+    padding: 0;
+    border: none; 
+    }
+    
+    body {
+    height: 100vh;
+    }
+    
+    header, section, footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    h1 {
+      width: 50%;
+    }
+    
+    section {
+      height: 500px;
+    }
+    
+    .text {
+      justify-content: center;
+    }
+    
+    .left {
+      height: 100%;
+      width: 75%;
+    }
+    
+    .right {
+      height: 100%;
+      width: 25%;
+    }
